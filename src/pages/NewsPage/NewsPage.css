@@ -1,0 +1,140 @@
+.news-page {
+  padding: 64px 36px 120px;
+  text-align: left;
+}
+
+.news-heading {
+  margin-bottom: 72px;
+}
+
+.news-heading > p {
+  margin: 0 0 12px;
+  color: #999999;
+  font-size: 13px;
+  letter-spacing: 0.18em;
+}
+
+.news-heading h1 {
+  margin: 0 0 24px;
+  font-size: clamp(48px, 7vw, 88px);
+  line-height: 1;
+  letter-spacing: -0.05em;
+}
+
+.news-heading > span {
+  color: #777777;
+  line-height: 1.8;
+}
+
+.news-list {
+  border-top: 1px solid #d8d8d8;
+}
+
+.news-item {
+  position: relative;
+  display: grid;
+  grid-template-columns: 200px minmax(0, 1fr) 40px;
+  gap: 36px;
+  align-items: start;
+  padding: 40px 16px;
+  border-bottom: 1px solid #d8d8d8;
+  transition:
+    background-color 0.25s ease,
+    padding-left 0.25s ease;
+}
+
+.news-item:hover {
+  padding-left: 28px;
+  background-color: #f7f7f7;
+}
+
+.news-meta {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.news-meta time {
+  color: #444444;
+  font-size: 14px;
+  letter-spacing: 0.06em;
+}
+
+.news-meta span {
+  width: fit-content;
+  padding: 6px 10px;
+  border: 1px solid #cccccc;
+  border-radius: 999px;
+  color: #888888;
+  font-size: 10px;
+  letter-spacing: 0.1em;
+}
+
+.news-content h2 {
+  margin: 0 0 14px;
+  font-size: 22px;
+  font-weight: 500;
+  line-height: 1.5;
+}
+
+.news-content p {
+  max-width: 680px;
+  margin: 0;
+  color: #777777;
+  font-size: 14px;
+  line-height: 1.9;
+}
+
+.news-arrow {
+  color: #999999;
+  font-size: 20px;
+  transition: transform 0.25s ease;
+}
+
+.news-item {
+  color: inherit;
+  text-decoration: none;
+}
+
+.news-item:hover .news-arrow {
+  transform: translate(4px, -4px);
+}
+
+@media (max-width: 700px) {
+  .news-page {
+    padding: 48px 20px 80px;
+  }
+
+  .news-heading {
+    margin-bottom: 48px;
+  }
+
+  .news-item {
+    grid-template-columns: 1fr 28px;
+    gap: 20px;
+    padding: 28px 0;
+  }
+
+  .news-item:hover {
+    padding-left: 0;
+  }
+
+  .news-meta {
+    grid-column: 1;
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .news-content {
+    grid-column: 1;
+  }
+
+  .news-arrow {
+    grid-column: 2;
+    grid-row: 1 / span 2;
+  }
+
+  .news-content h2 {
+    font-size: 19px;
+  }
+}
