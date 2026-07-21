@@ -21,7 +21,7 @@ const projects = [
       "当日に登録されている予定の通知画面表示",
     ],
     github:
-      "https://github.com/k24rs110h-fukumoto/haruto-fukumoto/tree/main/SwiftUI-Calendar-App",
+      "https://github.com/haruto-fukumoto-projects/swiftui-calendar-app",
     website: "",
   },
   {
@@ -45,7 +45,7 @@ const projects = [
       "ゲーム進行に応じたメッセージUI",
       "効果音と画面演出を利用した恐怖表現",
     ],
-    github: "https://github.com/k24rs110h-fukumoto/haruto-fukumoto/tree/main/Unity-3D-Horror-Game",
+    github: "https://github.com/haruto-fukumoto-projects/utsuroi-horror-game",
     website: "",
   },
   {
@@ -68,7 +68,7 @@ const projects = [
       "換気が必要な場合のアラート表示",
       "将来的なAI予測機能を追加できるデータ構成",
     ],
-    github: "#",
+    github: "https://github.com/haruto-fukumoto-projects/co2-alert-ios",
     website: "",
   },
   {
@@ -92,7 +92,7 @@ const projects = [
       "NPCとの会話表示",
       "マップ間のシーン移動",
     ],
-    github: "https://github.com/k24rs110h-fukumoto/haruto-fukumoto/tree/main/Unity-2D-RPG-Game",
+    github: "https://github.com/haruto-fukumoto-projects/fragments-rpg",
     website: "",
   },
   {
@@ -139,7 +139,7 @@ const projects = [
       "制限時間とゲーム終了処理",
       "リスタート機能",
     ],
-    github: "https://github.com/k24rs110h-fukumoto/haruto-fukumoto/tree/main/Unity-Apple-Catch-Game",
+    github: "https://github.com/haruto-fukumoto-projects/unity-mini-gamese",
     website: "",
   },
   {
@@ -163,7 +163,7 @@ const projects = [
       "召喚したキャラクターの情報表示",
       "ScriptableObjectを利用したキャラクターデータ管理",
     ],
-    github: "https://github.com/k24rs110h-fukumoto/haruto-fukumoto/tree/main/Unity-Slot-Game",
+    github: "https://github.com/haruto-fukumoto-projects/unity-mini-games",
     website: "",
   },
   {
@@ -195,8 +195,8 @@ const projects = [
       "自己紹介、外部リンク、Contactページ",
       "スマートフォン表示への対応",
     ],
-    github: "",
-    website: "",
+    github: "https://github.com/haruto-fukumoto-projects/portfoliosite-web",
+    website: "https://web-portfolio-h-fukumoto.vercel.app/",
   },
   {
     slug: "portfolio-game",
@@ -219,7 +219,7 @@ const projects = [
       "ContactやGitHubへ移動するリンクUI",
       "WebGL形式でのブラウザ公開",
     ],
-    github: "",
+    github: "https://github.com/haruto-fukumoto-projects/portfolio-unity",
     website: "",
   },
 ];

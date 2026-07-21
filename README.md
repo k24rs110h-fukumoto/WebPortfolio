@@ -1,16 +1,58 @@
-# React + Vite
+# Web Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+ReactとTypeScriptで制作したWebポートフォリオです。
 
-Currently, two official plugins are available:
+これまでに制作したWebアプリ、スマートフォンアプリ、Unityゲーム、研究内容などを紹介しています。
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## URL
 
-## React Compiler
+- Webサイト：https://web-portfolio-h-fukumoto.vercel.app/
+- Projects：https://github.com/haruto-fukumoto-projects
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 主な機能
 
-## Expanding the ESLint configuration
+- 制作物の一覧表示
+- プロジェクト詳細ページ
+- 研究内容の紹介
+- 活動記録・ニュースの表示
+- 自己紹介ページ
+- お問い合わせページ
+- スマートフォン対応
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 使用技術
+
+- React
+- TypeScript
+- React Router
+- Vite
+- CSS
+- Vercel
+
+## 開発した理由
+
+制作したアプリやゲーム、研究内容を企業の方に分かりやすく紹介するために制作しました。
+
+作品を並べるだけでなく、開発した理由や工夫した点も伝えられる構成を意識しています。
+
+## 工夫した点
+
+- 制作物を分野ごとに整理した
+- 各プロジェクトの詳細ページを作成した
+- ページ移動時に画面上部へ戻るようにした
+- PCとスマートフォンの両方で見やすい画面にした
+- 新しい制作物やニュースを追加しやすい構成にした
+
+## 今後追加したい機能
+
+- 制作物の追加
+- スクリーンショットや動画の充実
+- お問い合わせ機能の改善
+- アニメーションの追加
+- 表示速度とアクセシビリティの改善
+
+## Author
+
+福本陽翔
+
+- GitHub：https://github.com/k24rs110h-fukumoto
+- Projects：https://github.com/haruto-fukumoto-projects
